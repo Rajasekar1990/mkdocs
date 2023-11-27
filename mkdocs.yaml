@@ -1,0 +1,38 @@
+#SITE DETAILS
+site_name: My documents 
+site_author: Rajasekar
+
+#REPO DETAILS
+repo_url: https://github.com/Rajasekar1990/mkdocs
+repo_name: Rajasekar1990/mkdocs
+
+#CONFIGURATION
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+  hide:
+    - toc
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+      primary: black
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+      primary: pink
+      accent: lime
+
+#PAGE NAVIGATION
+nav:
+  - Getting Started: "index.md"
